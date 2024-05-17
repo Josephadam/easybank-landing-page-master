@@ -523,6 +523,11 @@ main {
   gap: calc(var(--gap-padding) / 1.5);
 }
 
+.footer .flex-col .col-2 .btn-row {
+  align-items: flex-end;
+  justify-content: end;
+}
+
 @media screen and (max-width: 720px) {
   .footer .flex-col {
     display: flex;
